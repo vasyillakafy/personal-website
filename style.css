@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Poppins:wght@300;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 10px 2px rgba(0,0,0,.1);
+    z-index: 2;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+}
+
+#nav-text{
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: black;
+}
+
+#nav-text-active{
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: #ffc813;
+}
+
+#nav-text:hover{
+    color: #ffc813 ;
+}
+
+nav > section > span{
+    padding-left: 34px;
+    font-size: 32px;
+    font-family: 'Changa One', cursive;
+}
+
+.button{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 18px 8px 18px;
+    border-radius: 20px;
+    /* background-color: #288f56; */
+    background-color: #ffc813;
+    color: black;
+    outline: none;
+    margin-right: 34px;
+}
+
+.button:hover{
+    /* background-color: #a1db6a; */
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.35);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#content-home{
+    position: relative;
+    max-width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 160px;
+    padding-left: 32px;
+    z-index: 1;
+}
+
+#img-home{
+    /* position: relative; */
+    max-width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    width: 154px;
+    height: 150px;
+    border-radius: 45%;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    
+    }
+
+
+@media (max-width: 720px) {
+
+    #nav-text{
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #nav-text-active{
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    nav > section > span{
+        padding-left: 34px;
+        font-size: 28px;
+        font-family: 'Changa One', cursive;
+    }
+
+    #content-home{
+        padding-left: 24px;
+    }
+
+    #img-home{
+        width: 124px;
+        height: 120px;
+    }
+}
