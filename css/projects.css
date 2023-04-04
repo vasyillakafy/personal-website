@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lalezar&family=Montserrat:wght@400;500&family=Open+Sans:wght@800&display=swap');
-
 *{
-  margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -14,22 +12,9 @@
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h2 {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 12px;
-    background-color: transparent;
-}
-
 .textp{
     margin-top: 8px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -41,88 +26,10 @@ img {
     vertical-align: middle;
 }
 
-.btn {
-    display: block;
-    width: 100%;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 0.50rem;
-    border: 1px solid rgba(131, 131, 131, 0.7);
-    background-color: #5C7C79;
-    color: #FFF9F0;
-    text-decoration: none;
-    text-align: center;
-    padding: 12px;
-}
-
-.btn:hover {
-    box-shadow: 1px 1px 10px 2px rgba(32, 32, 32, 0.35);
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.cards_item {
-    display: flex;
-    padding: 2.2rem;
-    padding-bottom: 3rem;
-}
-
-.card {
-    background-color: #E7D4B3;
-    border-radius: 0.50rem;
-    box-shadow: 10px 20px 40px -14px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.card_content {
-    padding: 1.5rem;
-    background-color: #E7D4B3;
-}
-
-.card_title {
-    background-color: #E7D4B3;
-    color: black;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin-bottom: 4px;
-}
-
-.card_text {
-    background-color: #E7D4B3;
-    color: black;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 0.7rem;    
-    font-weight: 400;
-}
-
-.footer-2{
-    display: flex;
-    /* position: absolute; */
-    align-items: center;
-    width: 100%;
-    bottom: 0px;
-    background-color: #fff;
-    box-shadow: 1px 2px 10px 2px rgba(0,0,0,.1);
-    margin-top: 28px;
-}
-
 /* Modal */
 .popup{
     display: none;
     opacity: 0;
-    /* margin-top: -200px; */
 }
 
 .popup-text{
@@ -154,7 +61,7 @@ img {
     padding:30px 50px;
     background-color: #fafafa;
     color:#333;
-    border-radius: 0.50rem;
+    border-radius: 10px;
 }
 
 a.popup-close {
@@ -162,7 +69,7 @@ a.popup-close {
     top:10px;
     right:10px;
     background-color: #333;
-    border-radius: 0.50rem;
+    border-radius: 10px;
     padding:7px 10px;
     font-size: 20px;
     text-decoration: none;
