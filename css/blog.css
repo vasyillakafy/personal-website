@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF9F0;
+}
+
+.main{
+    padding-top: 160px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.textp{
+    margin-top: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    background-color: #E7D4B3;
+    padding: 0.75rem;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.33333%;
+    }
+} 
