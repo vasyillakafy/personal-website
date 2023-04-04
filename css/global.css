@@ -30,7 +30,7 @@ h2 {
     color: #FFF9F0;
     text-decoration: none;
     text-align: center;
-    padding: 12px;
+    padding: 12px 20px;
 }
 
 .btn:hover {
@@ -61,7 +61,7 @@ h2 {
     padding-left: 14px;
     padding-right: 14px;
     background-color: #5C7C79;
-    color: #E0DED4;
+    color: #fff;
 }
 
 #nav-text-active{
@@ -79,7 +79,7 @@ h2 {
 }
 
 nav > section > span{
-    padding: 8px;
+    padding: 2px;
     font-size: 38px;
     font-family: 'Lalezar', cursive;
     color: #E0DED4;
