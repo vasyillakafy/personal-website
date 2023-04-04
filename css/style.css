@@ -21,7 +21,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 1px 5px 10px 5px rgba(0,0,0,.1);
-    z-index: 2;
+    z-index: 3;
     background-color: #5C7C79;
     /* background-color: #1C2135; */
 }
