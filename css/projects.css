@@ -77,23 +77,3 @@ a.popup-close {
     color:#fff;
 }
 
-@media (min-width: 40rem) {
-    .cards_item {
-        width: 50%;
-    }
-    .popup-container {
-        width:100%;
-    }
-}
-
-@media (min-width: 56rem) {
-    .cards_item {
-        width: 50%;
-    }
-} 
-
-@media (min-width: 768px){
-    .popup-container {
-        width:600px;
-    }
-}

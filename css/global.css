@@ -188,3 +188,139 @@ nav > section > span > span{
     height: 30px;
 }
 
+@media (max-width: 720px) {
+
+    #nav-text{
+        font-size: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #nav-text-active{
+        font-size: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    nav > section > span{
+        padding-left: 34px;
+        font-size: 28px;
+        font-family: 'Lalezar', cursive;
+    }
+
+    .container{
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    #content-home{
+        padding-left: 24px;
+        padding-top: 100px;
+    }
+
+    #img-home{
+        width: 204px;
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .footer{
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #footer-text{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #nav-text{
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #nav-text-active{
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    nav > section > span{
+        padding-left: 30px;
+        font-size: 20px;
+        font-family: 'Lalezar', cursive;
+    }
+
+    .container{
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    #content-home{
+        padding-left: 24px;
+        padding-top: 100px;
+    }
+
+    #img-home{
+        width: 104px;
+        height: 100px;
+        max-width: 100%;
+    }
+
+    .footer{
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #footer-text{
+        font-size: 14px;
+    }
+
+    #name-home{
+        font-size: 16px;
+    }
+    
+    #name-home2{
+        font-size: 24px;
+    } 
+    
+    #name-home3{
+        font-size: 12px;
+        margin-bottom: 20px;
+    } 
+
+    .button{
+        font-size: 12px;
+    }
+
+    .footer{
+        margin-top: 40px;
+        position: relative;
+    }
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+    .popup-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 50%;
+    }
+} 
+
+@media (min-width: 768px){
+    .popup-container {
+        width:600px;
+    }
+}

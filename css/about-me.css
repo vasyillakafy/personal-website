@@ -117,3 +117,11 @@
     font-size: 16px;
     text-align: right;
   }
+
+@media (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
