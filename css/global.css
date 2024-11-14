@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lalezar&family=Montserrat:wght@400;500&family=Open+Sans:wght@800&display=swap');
 
-h1 {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: center;
+.bold{
+    font-weight: bold;
 }
 
-h2 {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 12px;
-}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan transparansi 50% */
+    z-index: 0;
+  }
+
 
 .container{
     display: flex;
@@ -37,7 +40,7 @@ h2 {
     box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.4);
 }
 
-.navbar{
+/* .navbar{
     position: fixed;
     display: flex;
     width: 100%;
@@ -88,7 +91,7 @@ nav > section > span{
 
 nav > section > span > span{
     background-color: #5C7C79;
-}
+} */
 
 #content-home{
     position: relative;
@@ -237,6 +240,11 @@ nav > section > span > span{
 
 @media (max-width: 480px) {
 
+        
+    .responsive-text {
+        font-size: 2px; /* Mengubah ukuran font */
+      }
+    
     #nav-text{
         font-size: 12px;
         padding-left: 12px;
